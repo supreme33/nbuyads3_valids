@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="add_client.TS_Area"/>
+      <class name="add_client.TS_declined_user"/>
+      <class name="add_client.TS_approved_agent"/>
+      <class name="add_client.TS_ad_type"/>
+      <class name="add_client.TS_State"/>
+      <class name="add_client.TS_City"/>
+      <class name="add_client.TS_report"/>
+      <class name="add_client.TS_Size"/>
+      <class name="add_client.TS_resubmitted"/>
+      <class name="add_client.TS_Package"/>
+      <class name="add_client.TS_paidSubs"/>
+      <class name="add_client.TS_Client"/>
+      <class name="add_client.TS_non_paid_subs"/>
+      <class name="add_client.TS_Application"/>
+      <class name="add_client.TS_declined_subs"/>
+      <class name="add_client.TS_declined_subscription"/>
+      <class name="add_client.TS_size_value"/>
+      <class name="add_client.TS_categories"/>
+      <class name="add_client.TS_subscription"/>
+      <class name="add_client.TS_Screen"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
